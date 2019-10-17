@@ -48,7 +48,6 @@ public class Account
     balance += amount;
   }
 
-  /
   /*----------------------------------------------
    Accessor method: getBalance
     Precondition: N/A
