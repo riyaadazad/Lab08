@@ -1,6 +1,8 @@
 public class ThreeOfAKind {
 
     public static void main(String[] args) {
+        int threeOfAKindCount = 0;
+
         Die sixSidedDie = new Die(6);
         Die fiveSidedDie = new Die(5);
         Die fourSidedDie = new Die(4);
@@ -26,6 +28,6 @@ public class ThreeOfAKind {
         }
         System.out.println("End Rolling of Four-Sided Die.");
 
-        System.out.println("GAME OVER. Three-of-a-Kind was rolled " + " times.");
+        System.out.println("GAME OVER. Three-of-a-Kind was rolled " + threeOfAKindCount + " times.");
     }
 }
