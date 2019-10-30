@@ -17,7 +17,7 @@ public class Account
   3 - arg Constructor: initializes balance, owner, and 
   account number
   ----------------------------------------------*/
-  public Account(double initBal, String owner, int	 number)
+  public Account(double initBal, String owner, int number)
   {
     balance = initBal;
     name = owner;

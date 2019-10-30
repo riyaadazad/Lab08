@@ -16,7 +16,7 @@ public class ManageAccounts
       Account acct1 = new Account(2000, "Sally", 1111);
    
    //instantiate acc12 for Joe with $500, account # 2222
-   
+   Account acct2 = new Account(500, "Joe", 2222);
    
    //deposit $100 to Joe's account
    
